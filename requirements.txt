@@ -1,0 +1,5 @@
+streamlit>=1.15.0
+python-dotenv>=1.0.0
+pandas>=1.0.0
+crewai>=0.1.0
+crewai-tools>=0.1.0
