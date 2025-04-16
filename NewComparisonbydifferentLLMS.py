@@ -190,7 +190,9 @@ def main():
     serper_api_key = st.sidebar.text_input("Serper API Key (Mandatory)", type="password")
     openai_api_key = st.sidebar.text_input("OpenAI API Key (Optional)", type="password")
     gemini_api_key = st.sidebar.text_input("Gemini API Key (Optional)", type="password")
-    
+    st.sidebar.header("Connect With Me")
+    st.sidebar.markdown("[![GitHub](https://img.shields.io/badge/GitHub-srimankatipally-black?style=flat&logo=github)](https://github.com/srimankatipally) [![LinkedIn](https://img.shields.io/badge/LinkedIn-srimankatipally-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/srimankatipally/)")
+
     if not serper_api_key:
         st.error("Serper API Key is required!")
         st.stop()
